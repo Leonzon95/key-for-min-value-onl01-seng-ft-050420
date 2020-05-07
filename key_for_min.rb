@@ -5,7 +5,7 @@ def key_for_min_value(hash)
   num = nil
   word = nil
   hash.each do |key, value|
-    if value < num || num == nil
+    if value < num || num = nil
       num = value
       word = key
     end
